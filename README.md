@@ -25,7 +25,7 @@ Extensive experiments demonstrate the effectiveness of FedSupWA, showing that it
 ### 1. Setup
 
 - CUDA>=11.7
-- At least two Nvidia GeForce RTX-2080Ti GPUs
+- At least one Nvidia GeForce RTX-3090 GPUs
 - Other necessary packages listed in [requirements.txt](requirements.txt)
 ```bash
 pip install -r requirements.txt
