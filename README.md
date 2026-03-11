@@ -4,7 +4,7 @@
 
 Official PyTorch implementation of the paper Domain-Aware Suppression and Aggregation for Federated DG ReID. (AAAI 2026)[Paper](come soon)
 
-![](./figures/Method.png)
+![](./Fig/method.png)
 
 ## Introduction
 Federated domain generalization in person re-identification (FedDG-ReID) aims to learn a privacy-preserving server model from decentralized client source domains that generalizes to unseen domains. 
@@ -65,7 +65,10 @@ pip install -r requirements.txt
 ```bash
 CUDA_VISIBLE_DEVICES=1 python -W ignore FedSupWA.py -td market1501 --logs-dir ./logs/mar --data-dir ./data
 ```
+### 3. Comparison
 
-### 3.Contact Us
+![](./Fig/comparison.png)
+
+### 4. Contact Us
 
 Email: yuzhixi@wust.edu.cn
