@@ -38,7 +38,7 @@ pip install -r requirements.txt
    Unzip all datasets and ensure the file structure is as follow:
    
    ```
-   SSCU/data    
+   FedSupWA/data    
    │
    └───market1501 OR msmt17
         │   
