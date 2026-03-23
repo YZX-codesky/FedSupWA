@@ -2,7 +2,7 @@
 
 ## Start Guideline
 
-Official PyTorch implementation of the paper Domain-Aware Suppression and Aggregation for Federated DG ReID. (AAAI 2026)[Paper](come soon)
+Official PyTorch implementation of the paper Domain-Aware Suppression and Aggregation for Federated DG ReID. (AAAI 2026)[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38214/42176)
 
 ![](./Fig/method.png)
 
