@@ -22,7 +22,7 @@ Extensive experiments demonstrate the effectiveness of FedSupWA, showing that it
 **2025/11/08** Accepted by AAAI-26
 
 
-### 1. Setup
+### Setup
 
 - CUDA>=11.7
 - At least one Nvidia GeForce RTX-3090 GPUs
@@ -59,16 +59,31 @@ pip install -r requirements.txt
             └───list_val.txt (only for MSMT-17)
    ```
 
-### 2. Train
+### Train
 
 - Train
 ```bash
 CUDA_VISIBLE_DEVICES=1 python -W ignore FedSupWA.py -td market1501 --logs-dir ./logs/mar --data-dir ./data
 ```
-### 3. Comparison
+### Comparison
 
 ![](./Fig/comparison.png)
 
-### 4. Contact Us
+## Contact Us
 
 Email: yuzhixi@wust.edu.cn
+
+## Citation
+```
+@inproceedings{yu2026domain,
+  title={Domain-Aware Suppression and Aggregation for Federated DG ReID},
+  author={Yu, Zhixi and Liu, Wei and Huang, Wenke and Yang, Bin and Bie, Qian and Wan, Guancheng and Xu, Xin},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={14},
+  pages={12231--12239},
+  year={2026}
+}
+```
+
+
